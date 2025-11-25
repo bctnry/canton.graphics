@@ -7,7 +7,13 @@
     font-family: "TGA";
     src:
 	local("TeX Gyre Adventor"),
-	url("assets/TeXGyreAdventor.ttf") format("truetype");
+	url("assets/TeXGyreAdventor.otf") format("opentype");
+}
+
+.slogan {
+	font-family: TGA;
+	font-size: 3rem;
+	line-height: 100%;
 }
 
 @media screen and (max-width: 720px) {
