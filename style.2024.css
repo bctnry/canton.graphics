@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    background-image: url("./assets/cgix-wallpaper-layer1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;;
+	background-position-x: left;
+	background-size: cover;
+    color: white;
+    /* font-family: serif */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0;
+}
+
+#layer2 {
+    background-image: url("./assets/cgix-wallpaper-layer2.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;;
+	background-position-x: left;
+	background-size: 100%, 100%;
+	z-index: 2000;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+#layer3 {
+    background-image: url("./assets/cgix-wallpaper-layer3.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom;;
+	background-position-x: right;
+	background-size: contain;
+	z-index: -1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#main {
+    position: fixed;
+	right: 1rem;
+	bottom: 1rem;
+	top: 50%;
+	left: 50%;
+	background-color: #000000cf;
+	color: white;
+	padding: 2rem;
+	z-index: 1000000;
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: white black;
+}
+
+ul {
+    list-style-type: square;
+    /* list-style-position: inside; */
+    padding-left: 1rem;
+}
+li {
+    padding-left: 0.5rem;
+}
+
+a {
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+}
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+#title {
+    /* font-family: Didot, Times, "Times New Roman", serif; */
+    font-family: Times, "Times New Roman", serif;
+    user-select: none;
+}
+#nav {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
