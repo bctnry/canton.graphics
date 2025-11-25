@@ -1,6 +1,21 @@
 * {
 	box-sizing: border-box;
 }
+
+
+@font-face {
+    font-family: "TGA";
+    src:
+	local("TeX Gyre Adventor"),
+	url("assets/TeXGyreAdventor.ttf") format("truetype");
+}
+
+@media screen and (max-width: 720px) {
+    #main {
+		left: 1rem !important;
+    }
+}
+
 body {
     background-image: url("./assets/cgix-wallpaper-layer1.png");
     background-repeat: no-repeat;
