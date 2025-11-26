@@ -79,6 +79,7 @@ body {
 	overflow: auto;
 	scrollbar-width: thin;
 	scrollbar-color: white black;
+	font-size: 1.1rem;
 }
 
 ul {
